@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "gulp-boilerplate",
   "version": "0.0.1",
-  "description": "A boilerplate for new projects",
+  "description": "A boilerplate for new Gulp based projects",
   "author": "Thays <thays.sn@hotmail.com>",
   "license": "MIT",
   "scripts": {
@@ -16,9 +16,13 @@
   "engineStrict": true,
   "devDependencies": {
     "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
     "husky": "^2.4.1"
   },
-  "dependencies": {},
-  "main": "src/index.js",
-  "repository": "git@github.com:thayssn/boilerplate.git"
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "main": "gulpfile.js",
+  "repository": "git@github.com:thayssn/gulp-boilerplate.git"
 }
